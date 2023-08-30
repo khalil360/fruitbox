@@ -1,0 +1,51 @@
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://thumbs.dreamstime.com/z/fruits-fall-deeply-under-water-big-splash-tropical-38286211.jpg?w=768');
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.8); 
+}
+
+
+
+.sinput input{
+  border: 0;
+  outline: 0;
+  background: rgba(235, 255, 252, 0.8); 
+  color: #555;
+  height: 60px;
+  border-radius: 30px;
+ 
+  font-size: 18px;
+}
+
+
+.sinput {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background: rgba(235, 255, 252, 0.8); 
+  border-radius: 30px;
+}
+
+.sinput h1 {
+  margin-right: 10px;
+  
+}
+
+.dataresult {
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  background: rgba(235, 255, 252, 0.8);
+  align-items: center;
+}
+
+.dataresult h3 {
+  
+  margin: 5px;
+}
